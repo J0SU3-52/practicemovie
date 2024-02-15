@@ -1,18 +1,17 @@
+import Footer from "./footer";
+import Header from "./Header";
+import Navbar from "./navbar";
 
-import Footer from './footer'
-import Header from './Header'
-import Navbar from './navbar'
-
-const HeaderFooter=({ children })=> {
+const HeaderFooter = ({ children }) => {
   return (
     <div className="app-container">
       <div className="content-container">
-        <Header/>
-        <Navbar/>
+        <Header />
+        <Navbar />
         {children}
-        <Footer/>
+        <Footer />
       </div>
     </div>
   );
-}
+};
 export default HeaderFooter;

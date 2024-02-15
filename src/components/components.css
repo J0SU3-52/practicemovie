@@ -20,7 +20,6 @@
   color: white;
 } */
 
-
 .App-footer {
   background-color: #282c34;
   padding: 20px;
@@ -34,10 +33,10 @@
   margin-top: 90px;
   /* display: flex;
   flex-direction: row; */
-  padding: 10px 20px ;
+  padding: 10px 20px;
   width: 100;
-  border-bottom: 2px solid #ccc;  
-  background-color: #F7F7F8;
+  border-bottom: 2px solid #ccc;
+  background-color: #f7f7f8;
   justify-content: space-around;
 }
 
@@ -60,15 +59,14 @@
   font-weight: bold;
 }
 
-
-.Footer-Content{
+.Footer-Content {
   margin-top: auto;
   margin-bottom: 0;
   padding: 20px;
   background-color: #0579f9;
   height: 70px;
 }
-.copyrigth{
+.copyrigth {
   text-align: center;
   padding: 20px;
   font-weight: 700;
@@ -79,16 +77,15 @@
 .top-section {
   display: flex;
   padding: 10px;
-  background-color: #0579f9 ;
+  background-color: #0579f9;
   height: 80px;
   border-bottom: 2px solid black;
   justify-content: space-between;
-
 }
-.titulo{
-  color:#fff;
+.titulo {
+  color: #fff;
 }
-.logo-contenedor{
+.logo-contenedor {
   align-items: center;
   display: flex;
   width: 120px;
@@ -100,10 +97,10 @@
   display: flex;
   flex-direction: row;
   height: 100%;
-  padding: 10px 20px ;
+  padding: 10px 20px;
   width: 100;
-  border-bottom: 2px solid #ccc;  
-  background-color: #F7F7F8;
+  border-bottom: 2px solid #ccc;
+  background-color: #f7f7f8;
   justify-content: space-around;
 }
 
@@ -136,7 +133,7 @@ body {
   background-color: #333;
 }
 
-.item-link{
+.item-link {
   float: left;
   display: block;
   color: #f2f2f2;
@@ -157,7 +154,6 @@ body {
     display: block;
   }
 }
-
 
 .lds-spinner {
   color: official;
@@ -237,7 +233,6 @@ body {
     opacity: 0;
   }
 }
-
 
 .lds-hourglass {
   display: inline-block;
